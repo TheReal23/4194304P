@@ -74,8 +74,7 @@ HTMLActuator.prototype.addTile = function (tile) {
   outputtext[22] = "563";
   outputtext[23] = "566";
   outputtext[24] = "570";
-  
-  inner.classList.add("tile-inner");
+
   element.textContent = tile.value;
 
   if (tile.previousPosition) {
