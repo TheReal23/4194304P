@@ -75,7 +75,7 @@ HTMLActuator.prototype.addTile = function (tile) {
   outputtext[23] = "566";
   outputtext[24] = "570";
 
-  element.textContent = tile.value;
+  element.textContent = outputtext[tile.value];
 
   if (tile.previousPosition) {
     // Make sure that the tile gets rendered in the previous position first
